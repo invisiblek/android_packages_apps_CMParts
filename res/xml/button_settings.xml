@@ -75,6 +75,13 @@
             android:title="@string/navigation_bar_recents_title"
             android:persistent="false" />
 
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="navigation_pixel_animation"
+            android:title="@string/navigation_bar_pixel_anim_title"
+            android:summary="@string/navigation_bar_pixel_anim_summary"
+            android:defaultValue="true"
+            cm:requiresConfig="@*android:bool/config_allowOpaLayout" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
