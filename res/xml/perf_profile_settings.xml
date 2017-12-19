@@ -34,6 +34,12 @@
             android:title="@string/auto_power_save_title"
             android:persistent="false" />
 
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="systemui_batterymode_color"
+            android:title="@string/batterymode_color_title"
+            android:summary="@string/batterymode_color_summary"
+            android:defaultValue="true"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory

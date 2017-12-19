@@ -579,6 +579,8 @@
     <string name="auto_power_save_title">Automatic power saver</string>
     <string name="auto_power_save_summary_on">Automatically enable power save mode at %s battery</string>
     <string name="auto_power_save_summary_off">Do not enable power save mode automatically</string>
+    <string name="batterymode_color_title">Change status bar colors in battery saver mode</string>
+    <string name="batterymode_color_summary">Enable or disable the horrid red color that the status/nav bars change to in battery saver mode</string>
     <string name="app_perf_profiles_title">Automatic optimization</string>
     <string name="app_perf_profiles_summary">Automatically choose an appropriate performance profile for applications and usage patterns</string>
     <string name="auto_power_save_never">Never</string>
